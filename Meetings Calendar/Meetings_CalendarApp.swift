@@ -11,7 +11,7 @@ import SwiftUI
 struct Meetings_CalendarApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            SplashScreenView()
         }
     }
 }

@@ -70,7 +70,17 @@ SplashScreen → RootView
 ---
 
 ## 🖼 Screenshots
+<img width="300" alt="Simulator Screenshot - iPhone 16 Pro - 2025-08-24 at 15 17 04" src="https://github.com/user-attachments/assets/8be12479-3fdc-4c67-8093-404af2b03d29" />
 
+<img width="300" alt="Simulator Screenshot - iPhone 16 Pro - 2025-08-24 at 15 17 12" src="https://github.com/user-attachments/assets/24122825-489f-4ff9-a6fc-099472cb0a92" />
+
+<img width="300" alt="Simulator Screenshot - iPhone 16 Pro - 2025-08-24 at 15 17 15" src="https://github.com/user-attachments/assets/725d39d1-1d40-49d6-93b4-0668b378badf" />
+
+<img width="300" alt="Simulator Screenshot - iPhone 16 Pro - 2025-08-24 at 15 19 57" src="https://github.com/user-attachments/assets/8fad4abd-936a-4948-bd96-fa4f02eac783" />
+
+<img width="300" alt="Simulator Screenshot - iPhone 16 Pro - 2025-08-24 at 15 17 19" src="https://github.com/user-attachments/assets/e3e2eaf7-6c04-4f54-a011-5fb2db57722d" />
+
+<img width="300" alt="Simulator Screenshot - iPhone 16 Pro - 2025-08-24 at 15 21 01" src="https://github.com/user-attachments/assets/987c49b1-b20d-482a-b6fb-94234bec11d4" />
 
 ---
 

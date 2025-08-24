@@ -15,8 +15,10 @@ A simple SwiftUI app to manage daily meetings with **Core Data** persistence, **
 ---
 
 ## 🧱 Architecture
+```
 Views → ViewModels → Repository (Core Data)
 └─ NotificationService (local notifications)
+```
 ---
 
 ## 🗂 Data Model
@@ -33,6 +35,7 @@ Views → ViewModels → Repository (Core Data)
 ---
 
 ## 📦 Project Structure
+```
 MeetingsCalendar/
 ├── App/
 │ ├── MeetingsCalendarApp.swift
@@ -53,15 +56,16 @@ MeetingsCalendar/
 │ └── NotificationService.swift
 └── UI/
 └── SplashScreenView.swift
-
+```
 
 ---
 
 ## 🚀 App Flow
+```
 SplashScreen → RootView
 ↳ OnboardingView (first launch only)
 ↳ MeetingView (calendar + list + sheets)
-
+```
 
 ---
 

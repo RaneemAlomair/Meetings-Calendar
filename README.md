@@ -82,17 +82,6 @@ SplashScreen → RootView
 
 <img width="300" alt="Simulator Screenshot - iPhone 16 Pro - 2025-08-24 at 15 21 01" src="https://github.com/user-attachments/assets/987c49b1-b20d-482a-b6fb-94234bec11d4" />
 
----
-
-## 🧭 Onboarding (English copy)
-- Page 1: **All your meetings in one place**  
-  *Pick a date from the calendar and see all meetings instantly.*
-- Page 2: **Add & Edit with ease**  
-  *Create a new meeting or update existing ones with just a tap.*
-- Page 3: **Right-time reminders**  
-  *Get notified exactly when your meeting starts.*
-
-Buttons: **Skip**, **Next**, **Get Started**
 
 ---
 
@@ -102,13 +91,3 @@ Buttons: **Skip**, **Next**, **Get Started**
 - Tap a meeting → Edit or Delete  
 - Swipe left on a row → Delete
 
----
-
-## 🗺 Roadmap
-- [ ] Remind me X minutes before  
-- [ ] Search & filters  
-- [ ] Recurring meetings  
-- [ ] iCloud sync  
-- [ ] Accessibility improvements
-
----

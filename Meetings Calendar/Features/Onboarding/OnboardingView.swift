@@ -7,19 +7,6 @@
 
 import SwiftUI
 
-// MARK: - Root (switch between Onboarding and App)
-struct RootView: View {
-    @AppStorage("hasSeenOnboarding") private var hasSeenOnboarding = false
-    
-    var body: some View {
-        if hasSeenOnboarding {
-            MeetingView()
-        } else {
-            OnboardingView()
-        }
-    }
-}
-
 // MARK: - Model
 struct OnboardingPage: Identifiable {
     let id = UUID()
@@ -100,35 +87,6 @@ struct OnboardingView: View {
     }
 }
 
-// MARK: - Card
-struct OnboardingCard: View {
-    let page: OnboardingPage
-    
-    var body: some View {
-        VStack(spacing: 18) {
-            Spacer(minLength: 20)
-            
-            Image(page.imageName)
-                .resizable()
-                .scaledToFit()
-                .frame(maxHeight: 260)
-                .shadow(color: .black.opacity(0.08), radius: 8, y: 4)
-            
-            Text(page.title)
-                .font(.title.bold())
-                .multilineTextAlignment(.center)
-                .padding(.top, 4)
-            
-            Text(page.subtitle)
-                .font(.body)
-                .foregroundStyle(.secondary)
-                .multilineTextAlignment(.center)
-                .padding(.horizontal, 8)
-            
-            Spacer(minLength: 10)
-        }
-    }
-}
 
 
 

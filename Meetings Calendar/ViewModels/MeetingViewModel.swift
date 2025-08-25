@@ -24,13 +24,13 @@ class MeetingViewModel: ObservableObject {
         }
         
         func addMeeting(title: String, notes: String?, start: Date, end: Date) {
-            let new = repo.addMeeting(title: title, notes: notes, startDate: start, endDate: end)
+            let new = repo.addMeeting(title: title, notes: notes, startDate: start, endDate: end) // انشئ و احفظ الاوبجكت في كور داتا
             if let id = new.id { notifier.schedule(meetingId: id, title: title, fireDate: start) }
             loadMeetings()
         }
     
         func updateMeeting(_ meeting: MeetingEntity, title: String, notes: String?, start: Date, end: Date) {
-            if let id = meeting.id { notifier.cancel(meetingId: id) }          // ألغِ الإشعار القديم
+            if let id = meeting.id { notifier.cancel(meetingId: id) }          // ألغِي الإشعار القديم
             repo.updateMeeting(meeting,                                       // مرري الكيان أولاً
                            title: title,
                            notes: notes,

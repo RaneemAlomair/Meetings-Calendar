@@ -90,4 +90,7 @@ SplashScreen → RootView
 - Tap **+** → Add meeting  
 - Tap a meeting → Edit or Delete  
 - Swipe left on a row → Delete
+---
+
+> Created by *Raneem Alomair* 👩🏻‍💻 — a iOS developer.
 

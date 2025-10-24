@@ -92,5 +92,6 @@ SplashScreen → RootView
 - Swipe left on a row → Delete
 ---
 
-> Created by *Raneem Alomair* 👩🏻‍💻 — a iOS developer.
+
+> Created by *Raneem Alomair* 👩🏻‍💻  iOS Developer | Apple Developer Academy Alumna  
 
